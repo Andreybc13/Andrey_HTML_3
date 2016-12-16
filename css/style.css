@@ -1,0 +1,139 @@
+body {
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+background: #f9f9f9;
+}
+
+div {
+  width: 1060px;
+  height: 950px;
+  margin: auto;
+  padding-bottom: 25px;
+  background: #ffffff;
+ border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+ box-shadow: 0px 1px 1px 0px rgba(0, 2, 2, 2);
+  
+}
+
+
+p {
+  float: right;
+}
+
+
+
+li {
+  list-style-type: none;
+}
+
+header  {
+  width: 966px;
+  margin: auto;
+} 
+
+header ul {
+ height: 40px;
+ background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
+}
+header a {
+ float: left;
+ color: #ffffff;
+ text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+ text-decoration: none;
+ width: 120px;
+ text-align: center;
+ padding: 9px;
+}
+
+header a:hover {
+background: linear-gradient(0deg, #2e2e2e 0%, #4a4a4a 100%);
+width: 118px;
+border-left: 1px solid #838383;
+border-right: 1px solid #838383;
+}
+
+
+main {
+  width: 966px;
+  height: 680px;
+  margin: auto;
+}
+
+ main ul {
+  
+   float: left;
+}
+
+main li {
+  width: 238px;
+  height: 39px;
+  position: relative;
+  right: 40px;
+  bottom: 15px;
+  border: 1px solid #c8c8c8;
+  border-bottom: 0;
+}
+main li:last-child {
+  border-bottom: 1px solid #c8c8c8;
+}
+main a {
+  margin-left: 20px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  color: #838383;
+}
+main li:hover {
+  background: #f9f9f9;
+}
+main a:hover {
+  color: black;
+  padding-left: 5px;
+}
+.content {
+  width: 678px;
+  height: 400px;
+  float: right;
+  border: 1px solid #c8c8c8;
+  box-shadow: none;
+}
+.content img {
+  display:block; margin:47px auto 89px;
+}
+.content p {
+  width: 625px;
+  text-align: left;
+  font-family: OpenSans;
+  color: #2c2b2b;
+  line-height: 21.333px; 
+  text-align: left;
+}
+
+footer {
+  width: 966px;
+  margin: auto;
+}
+
+footer ul {
+height: 40px;
+background-color: #e1e1e1;
+}
+
+footer a {
+  float: left;
+  width: 120px;
+  text-align: center;
+  padding: 9px;
+  text-decoration: none;
+  color: #2c2c2c;
+  
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  margin: auto;
+  padding: 9px;
+}
